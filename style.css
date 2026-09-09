@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Helvetica, Arial, sans-serif;
+
+    background: #f5f7fb;
+    color: #1f2937;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+}
+
+header {
+    background: #3b7ef8;
+    color: white;
+    padding: 45px 0;
+}
+
+header h1 {
+    font-size: 42px;
+    font-weight: 700;
+}
+
+header p {
+    font-size: 18px;
+    margin-top: 5px;
+    opacity: 0.9;
+}
+
+main {
+    padding: 40px 0;
+}
+
+.hero {
+    text-align: center;
+    padding: 20px 0 35px;
+}
+
+.hero h2 {
+    font-size: 32px;
+    margin-bottom: 12px;
+}
+
+.hero p {
+    max-width: 650px;
+    margin: auto;
+    color: #6b7280;
+}
+
+.card {
+    background: white;
+    padding: 30px;
+    margin-bottom: 25px;
+    border-radius: 14px;
+
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+}
+
+.card h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 7px;
+}
+
+.card p {
+    margin-bottom: 12px;
+}
+
+.card ul {
+    margin: 15px 0 10px 25px;
+}
+
+.card li {
+    margin-bottom: 7px;
+}
+
+.email {
+    color: #3b7ef8;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.email:hover {
+    text-decoration: underline;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 11px 18px;
+
+    background: #3b7ef8;
+    color: white;
+
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.button:hover {
+    opacity: 0.9;
+}
+
+footer {
+    background: #111827;
+    color: #9ca3af;
+    text-align: center;
+    padding: 25px 0;
+    margin-top: 30px;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+@media (max-width: 600px) {
+
+    header {
+        padding: 35px 0;
+    }
+
+    header h1 {
+        font-size: 34px;
+    }
+
+    .hero h2 {
+        font-size: 27px;
+    }
+
+    .card {
+        padding: 22px;
+    }
+}
